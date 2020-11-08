@@ -15,6 +15,6 @@ end)
 
 game.Players.PlayerRemoving:Connect(function(plr)
 	local avatar = game.Players:GetUserThumbnailAsync(plr.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
-	HttpService:GetAsync("http://owowhatsthis.xyz/webhook.php?Username=" ..plr.Name .."&Message=**>> Left the game**&Avatar=" ..avatar .."&ID=" ..plr.UserId)
+	HttpService:GetAsync("http://site.xyz/webhook.php?Username=" ..plr.Name .."&Message=**>> Left the game**&Avatar=" ..avatar .."&ID=" ..plr.UserId)
 
 end)
