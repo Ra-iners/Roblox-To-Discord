@@ -1,5 +1,5 @@
--- replace site.xyz with your webhost and upload webhook.php to the website
--- Roblox doesen't let you post to discord webhooks via game, so we'll have to use a php script to do that
+-- replace site.xyz with your webhost and upload webhook.php to the website.
+-- Roblox doesen't let you post to discord webhooks via game, so we'll have to use a php script to do that.
 
 HttpService = game:GetService("HttpService")
 
