@@ -16,7 +16,7 @@ $hookObject = json_encode([
 
     "content" => "$Message",
     "username" => "$username ($UserID)",
-    "avatar_url" => "https://www.roblox.com/headshot-thumbnail/image?userId=$UserID&width=420&height=420&format=png",
+    "avatar_url" => "$AvatarURL",
     "tts" => false,
 
 ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
